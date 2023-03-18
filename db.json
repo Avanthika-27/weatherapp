@@ -1,0 +1,68 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "signupUsers": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "fullname": "Avanthika",
+      "email": "savanthika2705@gmail.com",
+      "password": "avanthika1",
+      "mobile": "+919345336638",
+      "id": 2
+    },
+    {
+      "fullname": "+919345336638",
+      "email": "",
+      "password": "",
+      "mobile": "+919345336638",
+      "id": 3
+    },
+    {
+      "fullname": "",
+      "email": "",
+      "password": "",
+      "mobile": "",
+      "id": 4
+    },
+    {
+      "fullname": "Avanthika",
+      "email": "savanthika2705@gmail.com",
+      "password": "avanthika1",
+      "mobile": "+919345336638",
+      "id": 5
+    },
+    {
+      "fullname": "Avanthika",
+      "email": "savanthika2705@gmail.com",
+      "password": "avanthika1",
+      "mobile": "+919345336638",
+      "id": 6
+    },
+    {
+      "fullname": "+919345336638",
+      "email": "",
+      "password": "",
+      "mobile": "",
+      "id": 7
+    },
+    {
+      "fullname": "+919345336638",
+      "email": "",
+      "password": "",
+      "mobile": "",
+      "id": 8
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

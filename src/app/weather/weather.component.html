@@ -1,0 +1,68 @@
+<body>
+  <div class="container">
+    <div class="upper-data">
+      <img src="../assets/hot.jpg" *ngIf="14 > 15">
+      <img src="../assets/cold.jpg" *ngIf="14 <= 15">
+
+      <div class="weather-data">
+        <div class="location">Chennai</div>
+        <div class="temperature">{{data.main.temp}}°C</div>
+      </div>
+    </div>
+    <div class="lower-data">
+      <div class="more-info-label">
+        More Information
+      </div>
+      <div class="more-info-container">
+        <div class="info-block">
+          <div class="info-block-label">
+            <img src="../assets/min.png" >
+            <span>Min</span>
+          </div>
+          <div class="info-block-value">
+            {{data.main.temp_min}}°C
+          </div>
+        </div>
+        <div class="info-block">
+          <div class="info-block-label">
+            <img src="../assets/max.png" >
+            <span>Max</span>
+          </div>
+          <div class="info-block-value">
+            {{data.main.temp_max}}°C
+          </div>
+        </div>
+
+        <div class="info-block">
+          <div class="info-block-label">
+            <img src="../assets/humidity.png" >
+            <span>Hum</span>
+          </div>
+          <div class="info-block-value">
+            {{data.main.humidity}}%
+          </div>
+        </div>
+        <div class="info-block">
+          <div class="info-block-label">
+            <img src="../assets/wind.png" >
+            <span>Wind</span>
+          </div>
+          <div class="info-block-value">
+            {{data.wind.speed}} km/hr
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  
+  <div>
+    <button routerLink="/login" class="button-15" role="button">LogOut</button>
+  </div>
+
+</body>
+
+
+
+
